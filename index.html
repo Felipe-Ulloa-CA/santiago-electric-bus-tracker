@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Santiago Electric Bus Tracker — Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <style>
+    body { margin: 0; font-family: system-ui, Arial; }
+    #map { height: 100vh; width: 100vw; }
+    .legend { position: absolute; top: 12px; left: 12px; background: white; padding: 8px 12px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="legend">Electric Bus Demo — Click a marker</div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script>
+    const map = L.map('map').setView([-33.45, -70.65], 12);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+    const buses = [
+      {"bus_id":"E101","route":"210","latitude":-33.4623,"longitude":-70.6534,"speed_kph":28,"battery_pct":76},
+      {"bus_id":"E132","route":"401","latitude":-33.4511,"longitude":-70.6120,"speed_kph":24,"battery_pct":82},
+      {"bus_id":"E118","route":"506","latitude":-33.4410,"longitude":-70.6320,"speed_kph":21,"battery_pct":71},
+      {"bus_id":"E147","route":"516","latitude":-33.4710,"longitude":-70.6710,"speed_kph":29,"battery_pct":69}
+    ];
+    buses.forEach(b => {
+      const m = L.marker([b.latitude, b.longitude]).addTo(map);
+      m.bindPopup(`<b>Bus ${b.bus_id}</b><br>Route: ${b.route}<br>Speed: ${b.speed_kph} kph<br>Battery: ${b.battery_pct}%`);
+    });
+  </script>
+</body>
+</html>
