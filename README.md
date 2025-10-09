@@ -26,3 +26,7 @@ santiago-electric-bus-tracker/
 └─ figures/
    └─ demo_screenshot.png
 ```
+### 📄 License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+© 2025 **Felipe E. Ulloa**
