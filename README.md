@@ -1,4 +1,4 @@
-# Santiago Electric Bus Tracker 🚍⚡
+# Santiago Electric Bus Tracker 
 
 **Real-Time Electric Mobility Platform (Santiago, Chile)**  
 Author: Felipe E. Ulloa • Date: 2025-10-09
@@ -8,7 +8,7 @@ It includes a synthetic dataset, a **FastAPI** backend stub, a minimal **Leaflet
 
 > Goal: demonstrate end-to-end architecture (IoT → API → ML → Map UI) and delivery approach typical of a **Technical Program Manager / AI** project.
 
-## 📦 Repository Structure
+## Repository Structure
 ```
 santiago-electric-bus-tracker/
 ├─ README.md
@@ -26,7 +26,7 @@ santiago-electric-bus-tracker/
 └─ figures/
    └─ demo_screenshot.png
 ```
-### 📄 License
+### License
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 © 2025 **Felipe E. Ulloa**
