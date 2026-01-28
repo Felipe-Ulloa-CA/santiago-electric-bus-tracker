@@ -27,7 +27,6 @@ santiago-electric-bus-tracker/
    └─ demo_screenshot.png
 ```
 ## Author
-
 **Felipe Eduardo Ulloa Orellana**  
 UC Berkeley Professional Certificate in Machine Learning & AI  
 Silicon Valley, California
