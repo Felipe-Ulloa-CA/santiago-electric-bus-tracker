@@ -26,7 +26,14 @@ santiago-electric-bus-tracker/
 └─ figures/
    └─ demo_screenshot.png
 ```
-### License
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+## Author
 
+**Felipe Eduardo Ulloa Orellana**  
+UC Berkeley Professional Certificate in Machine Learning & AI  
+Silicon Valley, California
+
+---
+
+### 📄 License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 © 2025 **Felipe E. Ulloa**
