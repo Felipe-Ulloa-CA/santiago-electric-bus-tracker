@@ -32,8 +32,6 @@ santiago-electric-bus-tracker/
 UC Berkeley Professional Certificate in Machine Learning & AI  
 Silicon Valley, California
 
----
-
-### 📄 License
+### License
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 © 2025 **Felipe E. Ulloa**
